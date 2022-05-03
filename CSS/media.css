@@ -1,0 +1,22 @@
+@media screen and ( max-width:1023px ) {
+    .instagram-container .phone-container{
+        display: none;
+    }
+   .instagram-container .login-container{
+       width: 100%;
+       align-items: center;
+   }
+   .login-container .first-container ,.login-container .second-container, .login-container .third-container{
+       border: 1px solid transparent;
+       background-color: transparent;
+   }
+   
+}
+@media screen and ( max-width:600px ){
+    .login-container .first-container ,.login-container .second-container, .login-container .third-container{
+        width: 90%;
+    }
+    .footer{
+        width: 90%;
+    }
+}
